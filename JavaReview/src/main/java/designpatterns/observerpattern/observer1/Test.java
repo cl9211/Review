@@ -1,4 +1,4 @@
-package designpatterns.observer.observer1;
+package designpatterns.observerpattern.observer1;
 
 /**
  * Created by CHULEI on 2020/9/8.
