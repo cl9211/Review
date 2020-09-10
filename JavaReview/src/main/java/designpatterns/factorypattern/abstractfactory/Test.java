@@ -6,7 +6,7 @@ package designpatterns.factorypattern.abstractfactory;
 
 class Test {
     public static void main(String[] args) {
-        XianRouJiaMoTeSeStore xianRouJiaMoTeSeStore = new XianRouJiaMoTeSeStore(new XianSimpleRouJiaMoTeSeFactory());
-        xianRouJiaMoTeSeStore.sellRouJiaMo("Suan");
+        AbstractFactory abstractFactory = FactoryProducer.getFactory("shape");
+        abstractFactory.getShape("circle").draw();
     }
 }
