@@ -1,20 +1,24 @@
 package designpatterns.singletonpatterns;
 
-import designpatterns.singletonpatterns.doublecheck.Singleton;
-
 /**
  * Created by CHULEI on 2020/9/10.
  */
 
 class Test {
     public static void main(String[] args) {
-        // 饿汉式
-//        Singleton.getInstance().singletonPrint();
+        // 枚举单例
+        SingleEnum.INSTANCE.singletonPrint();
 
-        // 懒汉式
-//        designpatterns.singletonpatterns.lh.Singleton.getInstance().singletonPrint();
+        // dcl单例
+        SingletonDcl.getInstance().singletonPrint();
 
-        // Double Check
-        Singleton.getInstance().singletonPrint();
+        // 饿汉单例
+        SingletonEh.getInstance().singletonPrint();
+
+        // 静态内部类单例
+        SingletonInner.getInstance().singletonPrint();
+
+        // 懒汉单例
+        SingletonLh.getInstance().singletonPrint();
     }
 }
