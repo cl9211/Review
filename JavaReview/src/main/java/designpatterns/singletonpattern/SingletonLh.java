@@ -1,4 +1,4 @@
-package designpatterns.singletonpatterns;
+package designpatterns.singletonpattern;
 
 /**
  * Created by CHULEI on 2020/9/10.
