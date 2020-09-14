@@ -1,4 +1,4 @@
-package designpatterns.buildpatterns;
+package designpatterns.buildpattern;
 
 /**
  * Created by CHULEI on 2020/9/10.

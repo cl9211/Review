@@ -1,17 +1,17 @@
-package designpatterns.buildpatterns;
+package designpatterns.buildpattern;
 
 /**
  * Created by CHULEI on 2020/9/10.
  */
 
-class Coke extends ColdDrink {
+class Pepsi extends ColdDrink {
     @Override
     public String name() {
-        return "Coke";
+        return "Pepsi";
     }
 
     @Override
     public float price() {
-        return 30.0f;
+        return 35.0f;
     }
 }

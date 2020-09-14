@@ -1,13 +1,13 @@
-package designpatterns.buildpatterns;
+package designpatterns.buildpattern;
 
 /**
  * Created by CHULEI on 2020/9/10.
  */
 
-abstract class ColdDrink implements Item {
+abstract class Burger implements Item {
     @Override
     public Packing packing() {
-        return new Bottle();
+        return new Wrapper();
     }
 
     public abstract float price();
