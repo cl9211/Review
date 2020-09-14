@@ -1,4 +1,4 @@
-package designpatterns.adapterpatterns;
+package designpatterns.adapterpattern;
 
 /**
  * Created by CHULEI on 2020/9/11.
