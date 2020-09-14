@@ -1,4 +1,4 @@
-package designpatterns.bridgepatterns;
+package designpatterns.bridgepattern;
 
 /**
  * Created by CHULEI on 2020/9/11.
