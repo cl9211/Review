@@ -1,0 +1,19 @@
+package designpatterns.commandpattern;
+
+/**
+ * Created by CHULEI on 2020/9/16.
+ */
+
+class SellStock implements Order {
+
+    private Stock abcStock;
+
+    public SellStock(Stock abcStock) {
+        this.abcStock = abcStock;
+    }
+
+    @Override
+    public void execute() {
+        abcStock.sell();
+    }
+}
