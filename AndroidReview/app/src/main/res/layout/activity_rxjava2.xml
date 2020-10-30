@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rxjava2.Rxjava2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/base_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="base"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/just_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="just"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/from_array_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from_array"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/from_callable_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from callable"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/from_future_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from future"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/from_iterable_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from iterable"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/defer_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="defer"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/timer_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="timer"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/interval_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="interval"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/interval_range_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="interval range"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/range_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="range"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/map_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="map"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/flat_map_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flat map"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>
